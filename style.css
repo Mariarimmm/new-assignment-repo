@@ -210,3 +210,53 @@
     font-weight: bold;
   }
 
+   /* Early Access Challenge */
+  .early-access {
+    padding: 60px 80px;
+  }
+
+  .access-box {
+    background-color: #f8fafc;
+    padding: 60px;
+    border-radius: 20px;
+    text-align: center;
+  }
+
+  .footer-note {
+    font-size: 0.75rem;
+    color: #94a3b8;
+    margin-top: 15px;
+  }
+
+  /* Footer */
+  .footer {
+    background-color: #020617;
+    color: white;
+    padding: 60px 80px 30px;
+  }
+
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .social-links .icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+
+  .divider {
+    border: 0;
+    border-top: 1px solid #1e293b;
+    margin: 40px 0 20px;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #64748b;
+  }
+
+
