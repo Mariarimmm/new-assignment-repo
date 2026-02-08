@@ -36,3 +36,75 @@
     color: #444;
     font-size: 0.9rem;
   }
+
+   /* Banner */
+  .banner {
+    background: url('./B13-A01-Knowledge-Vault/assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+  }
+
+  .banner-content {
+    max-width: 800px;
+  }
+
+  .badge {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+  }
+
+  .banner h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+
+  .text-green {
+    color: #4ade80;
+  }
+
+  .banner p {
+    margin: 20px 0 40px;
+    color: #cbd5e1;
+  }
+
+  /* Buttons & Hover Effects */
+  .btn {
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+  }
+
+  .btn-primary {
+    background-color: #2D8A5E;
+    color: white;
+  }
+
+  .btn-primary:hover {
+    background-color: #246d4a;
+    transform: translateY(-2px);
+  }
+
+  .btn-outline {
+    background: transparent;
+    border: 1px solid #fff;
+    color: white;
+    margin-left: 10px;
+  }
+
+  .btn-outline:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
